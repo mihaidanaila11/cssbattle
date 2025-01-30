@@ -1,0 +1,44 @@
+<div id="crown_body">
+  <div id="spikes">
+    <div class="spike"></div>
+    <div class="spike"></div>
+  </div>
+</div>
+<div>
+  
+</div>
+<style>
+  #spikes{
+    width: 120px;
+    position:absolute;
+    display: flex;
+  }
+
+  .spike{
+    width: 0;
+	height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 43px solid #DE817E;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #DE817E;
+  }
+  #crown_body {
+    width: 120px;
+    height: 100px;
+    background: #EBE77E;
+  }
+  #crown_body::after{
+    content:"";
+    display: block;
+    position: relative;
+    top: 110px;
+    width: 120px;
+    height: 20px;
+    background-color:#EBE77E;
+  }
+</style>
