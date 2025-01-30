@@ -1,0 +1,41 @@
+<div id="col"></div>
+<div id="row1"></div>
+<div id="row2"></div>
+<div id="col2"></div>
+<style>
+  body{
+    margin: 0;
+    background: #5DBCF9;
+    display: grid;
+    grid-template-columns: repeat(11, 40px);
+    grid-template-rows: repeat(11, 40px);
+  }
+  div{
+    background: #FFFFFF;
+  }
+  #col{
+    grid-row-start:1;
+    grid-row-end: 9;
+    grid-column-start:2;
+  }
+  #col2{
+    position:relative;
+    top: 10px;
+    left: 20px;
+    grid-row-start:3;
+    grid-row-end: 6;
+    grid-column-start:5;
+  }
+  #row1{
+    grid-row-start:2;
+    grid-column-start:1;
+    grid-column-end: 4;
+  }
+  #row2{
+    position:relative;
+    top: 20px;
+    grid-row-start:6;
+    grid-column-start:1;
+    grid-column-end: 4;
+  }
+</style>
