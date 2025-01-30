@@ -1,0 +1,49 @@
+<div id="mid">
+    <div class = "petala"></div>
+    <div class = "petala"></div>
+    <div class = "petala"></div>
+    <div class = "petala"></div>
+    <div class = "petala"></div>
+  </div>
+  <style>
+    body{
+      background: #5AED9C;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .petala{
+      position: absolute;
+      width: 60px;
+      height: 30px;
+      border-radius: 25px;
+      background: red;
+      left: 50%;
+      top: 50%;
+      background: #4B4D88;
+    }
+  
+    .petala:nth-child(1){
+      transform: translate(calc(-50% - 24vw), -50%);
+    }
+    .petala:nth-child(2){
+      transform: translate(calc(-50% - 17vw), calc(-50% - 23vh)) rotate(45deg);
+    }
+    .petala:nth-child(3){
+      transform: translate(calc(-50%), calc(-50% - 24vw)) rotate(90deg);
+    }
+    .petala:nth-child(4){
+      transform: translate(calc(-50% + 17vw), calc(-50% - 23vh)) rotate(-45deg);
+    }
+    .petala:nth-child(5){
+      transform: translate(calc(-50% + 24vw), -50%);
+    }
+    #mid{
+      width: 25vw;
+      height: 25vw;
+      background: #4B4D88;
+      border-radius: 50%;
+      
+    }
+  </style>
