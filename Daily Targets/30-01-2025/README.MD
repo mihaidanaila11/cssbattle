@@ -2,7 +2,7 @@
 
   
 
-### Score: 596.09(99.9% match)
+### Score: 596.09 (99.9% match)
 ### Number of characters: 1054
 
 ## Preview
