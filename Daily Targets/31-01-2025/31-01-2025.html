@@ -1,0 +1,40 @@
+<div id="core">
+  <div id="trg">
+    <div id="gap"></div>
+  </div>
+</div>
+<style>
+  body{
+    background: #2F5A76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #core{
+    align-items: center;
+    width: 200px;
+    height: 140px;
+    border-radius: 110px;
+    border: 40px solid #C15965;
+  }
+
+  #trg{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid #C15965; 
+  }
+
+  #gap{
+    width: 80px;
+    height: 80px;
+    background: #2F5A76;
+    position: relative;
+    transform: translate(-50%, 100%);
+  }
+</style>
