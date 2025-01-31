@@ -2,7 +2,7 @@
 
   
 
-### Score: 595.37(?% match)
+### Score: 595.37 (?% match)
 ### Number of characters: 416
 
 ## Preview
