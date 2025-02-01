@@ -28,6 +28,13 @@
         <td><a href="https://github.com/mihaidanaila11/cssbattle/tree/main/Daily%20Targets/31-01-2025">31</a></td>
         <td>100%</td>
     </tr>
+    <tr>
+        <th rowspan=30>February</th>
+        <td>
+        <a href="https://github.com/mihaidanaila11/cssbattle/tree/main/Daily%20Targets/01-02-2025">01</a>
+        </td>
+        <td>100%</td>
+    </tr>
     
 </table>
 
