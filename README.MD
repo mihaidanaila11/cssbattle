@@ -35,6 +35,12 @@
         </td>
         <td>100%</td>
     </tr>
+    <tr>
+        <td>
+        <a href="https://github.com/mihaidanaila11/cssbattle/tree/main/Daily%20Targets/02-02-2025">02</a>
+        </td>
+        <td>100%</td>
+    </tr>
     
 </table>
 

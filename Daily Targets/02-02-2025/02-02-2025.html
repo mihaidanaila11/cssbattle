@@ -1,0 +1,43 @@
+<div>
+  <div class="pt p1"></div>
+  <div class="pt p2"></div>
+  <div class="pt p3"></div>
+  <div class="circle"></div>
+</div>
+<style>
+  *{
+    background: #EED9D9;
+    margin: 0;
+  }
+  div {
+    display:grid;
+      grid-template-rows: repeat(5, 60px);
+    grid-template-columns: repeat(20, 20px);
+  }
+  .pt{
+    background: #469DBA;
+  }
+  .p1{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+  }
+  .p2{
+    grid-column-start: 4;
+    grid-column-end: 18;
+    grid-row-start: 3;
+  }
+  .p3{
+    grid-column-start: 15;
+    grid-column-end: 18;
+    grid-row-start: 4;
+  }
+  .circle{
+    background:#46487C;
+    grid-row-start: 4;
+    grid-column-start: 8;
+    grid-row-end: 6;
+    grid-column-end: 14;
+    border-radius: 50%;
+  }
+</style>
