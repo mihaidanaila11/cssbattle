@@ -1,0 +1,44 @@
+<div id="rect">
+  <div id="r2"></div>
+</div>
+<style>
+  *{
+    background: #9076D8;
+    margin: 0;
+  }
+  #r2{
+    position: relative;
+    top: 160px;
+    transform: translateX(-50%);
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid #F5E3B5;
+    border-right: 40px solid #F5E3B5;
+  }
+  #rect{
+    width:0;
+    height: 200;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60;
+    border-bottom: 40px solid #9076D8;
+    border-left: 40px solid #F5E3B5;
+    border-right: 40px solid #F5E3B5;
+  }
+  #rect::before{
+    content:"";
+    position: absolute;
+    transform: translateX(-50%);
+    border-bottom: 40px solid #9076D8;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+  }
+  #rect::after{
+    content:"";
+    position: absolute;
+    transform: translateX(-50%);
+    border-bottom: 40px solid #9076D8;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+  }
+</style>
