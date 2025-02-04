@@ -1,0 +1,46 @@
+<div class="l"></div>
+<div class="l"></div>
+<div id="mid"></div>
+<style>
+  .l{
+    position: relative;
+    top: 44;
+    left: 109;
+    transform: rotate(-45deg);
+    background: #4B4D88;
+    width: 30px;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+
+  .l::before{
+    content:"";
+    position: absolute;
+    transform: rotate(45deg) translateX(135px) rotate(45deg);
+    background: #4B4D88;
+    width: 30px;
+    height: 60px;
+    border-radius: 20px;
+  }
+  #mid{
+    background: #4B4D88;
+    width: 30px;
+    height: 60px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    bottom: 42%;
+    transform: translate(-50%, 50%);
+  }
+  #mid::after{
+    content: "";
+    position: absolute;
+    top: 111;
+    transform: translateX(-44%);
+    width: 250px;
+    height: 30px;
+    background: #4B4D88;
+    border-radius: 20px;
+  }
+</style>

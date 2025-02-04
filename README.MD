@@ -47,6 +47,12 @@
         </td>
         <td>100%</td>
     </tr>
+    <tr>
+        <td>
+        <a href="https://github.com/mihaidanaila11/cssbattle/tree/main/Daily%20Targets/04-02-2025">03</a>
+        </td>
+        <td>99.9%</td>
+    </tr>
     
 </table>
 
